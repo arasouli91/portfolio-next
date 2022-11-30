@@ -9,7 +9,7 @@ import {
   ListItem,
   chakra
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon, ChevronDownIcon } from '@chakra-ui/icons'
 import { BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section' 
@@ -65,12 +65,21 @@ const Home = () => (
           Southern New Hampshire University<br/>
           • Graduated November 2019<br/>
           • GPA: 4.0
-        <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
+        <Box className='middle-btns'>
+          <Box align="center" my={4}>
+            <NextLink href="/projects" passHref scroll={false}>
+              <Button rightIcon={<ChevronDownIcon />} colorScheme="teal">
+                Download Resume
+              </Button>
+            </NextLink>
+          </Box>
+          <Box align="center" my={4}>
+            <NextLink href="/projects" passHref scroll={false}>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                My portfolio
+              </Button>
+            </NextLink>
+          </Box>
         </Box>
       </Section>
 

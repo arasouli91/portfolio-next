@@ -9,8 +9,8 @@ import thumbYabla from '../public/images/works/thumbYabla.png'
 import thumbChess from '../public/images/works/thumbChess.png'
 import thumbPM from '../public/images/works/thumbPM.png'
 
-const Works = () => (
-  <Layout title="Works">
+const Projects = () => (
+  <Layout title="Projects">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Projects
@@ -66,5 +66,5 @@ const Works = () => (
   </Layout>
 )
 
-export default Works
+export default Projects
 export { getServerSideProps } from '../components/chakra'

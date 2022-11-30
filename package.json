@@ -1,7 +1,7 @@
 {
-  "name": "craftzdog-homepage",
+  "name": "amir-portfolio",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Amirs's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Amir Rasouli",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.0.8",
@@ -18,7 +18,7 @@
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "framer-motion": "^7.2.0",
-    "next": "^12.2.5",
+    "next": "^13.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
@@ -27,6 +27,8 @@
   "devDependencies": {
     "eslint": "^8.22.0",
     "eslint-config-next": "^12.2.5",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

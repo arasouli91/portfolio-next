@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -19,8 +19,8 @@ const Projects = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="ytx" title="YouTube MegaPlaylist" thumbnail={thumbYTX}>
-            YouTube playlist app adding many useful features and surpassing YouTube's
-            playlist length limit.
+            YouTube playlist app adding many useful features 
+            and surpassing YouTube&apos;s playlist length limit.
           </WorkGridItem>
         </Section>
 
@@ -58,7 +58,7 @@ const Projects = () => (
             thumbnail={thumbPM}
           >
             Assessment completed for interview that I put a little effort into,
-            but I didn't take offer.
+            but I didn&apos;t take offer.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

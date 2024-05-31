@@ -8,3 +8,15 @@
   align-items: space-between;
   gap: 25px;
 }
+
+.chakra-linkbox:hover {
+  box-shadow: 0 0 8px 2px #4FD1C5;
+  border-radius: 5px;
+}
+
+@media (min-width: 769px) {
+  .grid-item-thumbnail {
+    max-height: 168px;
+    min-height: 156px;
+  }
+}
